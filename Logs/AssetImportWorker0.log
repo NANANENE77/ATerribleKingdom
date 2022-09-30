@@ -1,0 +1,566 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.1f1c1 (0cb3bd085a01) revision 832445'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'zh' Physical Memory: 16304 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Unity 2021.3.1f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/练习工程/ATerribleKingdom
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55197
+Successfully changed project path to: D:/练习工程/ATerribleKingdom
+D:/练习工程/ATerribleKingdom
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 47.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1c1 (0cb3bd085a01)
+[Subsystems] Discovering subsystems at path E:/Unity/Unity 2021.3.1f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/练习工程/ATerribleKingdom/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   30.0.15.1295
+Initialize mono
+Mono path[0] = 'E:/Unity/Unity 2021.3.1f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Unity 2021.3.1f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Unity 2021.3.1f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Unity 2021.3.1f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003454 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (683ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (470ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005735 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.102 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1103ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2227 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (1.6 MB). Loaded Objects now: 2695.
+Memory consumption went from 104.0 MB to 102.5 MB.
+Total: 3.936700 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.178100 ms MarkObjects: 3.034100 ms  DeleteObjects: 0.394600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1281663.152886 seconds.
+  path: Assets/GameAssets/Models/Characters/Monsters
+  artifactKey: Guid(5b354b3bc1e89214db9974c2e1f6eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Models/Characters/Monsters using Guid(5b354b3bc1e89214db9974c2e1f6eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47eeeda9cdde5c96c7d9e84cde112824') in 0.016195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 694.969647 seconds.
+  path: Assets/GameAssets/Audio/AudioMixer.mixer
+  artifactKey: Guid(da6744d1523af4e89a62e3a7e8216643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Audio/AudioMixer.mixer using Guid(da6744d1523af4e89a62e3a7e8216643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0bd40f0b0c438a68dd0546ab3225bd') in 0.051496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GameAssets/Audio/Thunder2.mp3
+  artifactKey: Guid(137c812e848a343a5a78c83aa3439163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Audio/Thunder2.mp3 using Guid(137c812e848a343a5a78c83aa3439163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3c6f20be32b54886a2d99b4a67be8f') in 0.209523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GameAssets/Audio/Thunder.mp3
+  artifactKey: Guid(c9e6d63e0b1db4c27b2ae7ccbcd382c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Audio/Thunder.mp3 using Guid(c9e6d63e0b1db4c27b2ae7ccbcd382c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4a07d8084a434439bd8b2f03b18700') in 0.043689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14000.484851 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Resources/Cutscene Icon.png
+  artifactKey: Guid(ce5d2226bf083724892858029278f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Resources/Cutscene Icon.png using Guid(ce5d2226bf083724892858029278f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5985f101bc24af821db15e4259427b46') in 0.223438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Resources/CutsceneIconOpen.png
+  artifactKey: Guid(22fff61c0dc890a408e8000f757dc534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Resources/CutsceneIconOpen.png using Guid(22fff61c0dc890a408e8000f757dc534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564083adb2e9c7860265e11d6719c1b7') in 0.034040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.195869 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/Framework/Cutscene.cs
+  artifactKey: Guid(2fa33787113f32d46a7764fa0670964b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/Framework/Cutscene.cs using Guid(2fa33787113f32d46a7764fa0670964b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ee9371c12eb7ffa48f2a52c6150899') in 0.011895 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005396 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1062ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (1.3 MB). Loaded Objects now: 2720.
+Memory consumption went from 99.3 MB to 98.0 MB.
+Total: 3.471300 ms (FindLiveObjects: 0.196200 ms CreateObjectMapping: 0.157500 ms MarkObjects: 2.915500 ms  DeleteObjects: 0.201400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007401 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Domain Reload Profiling:
+	ReloadAssembly (988ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (717ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (1.3 MB). Loaded Objects now: 2735.
+Memory consumption went from 99.4 MB to 98.0 MB.
+Total: 3.009200 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.121000 ms MarkObjects: 2.372300 ms  DeleteObjects: 0.265500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005646 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1007ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (769ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (1.3 MB). Loaded Objects now: 2750.
+Memory consumption went from 99.4 MB to 98.1 MB.
+Total: 3.406600 ms (FindLiveObjects: 0.205400 ms CreateObjectMapping: 0.119300 ms MarkObjects: 2.848000 ms  DeleteObjects: 0.232800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005076 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
+Domain Reload Profiling:
+	ReloadAssembly (972ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (1.3 MB). Loaded Objects now: 2765.
+Memory consumption went from 99.4 MB to 98.1 MB.
+Total: 4.391400 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.205200 ms MarkObjects: 3.670400 ms  DeleteObjects: 0.223100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3655.980272 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Windows/CutsceneEditor.cs
+  artifactKey: Guid(d7a33c3e807476444b7d42d2130b2d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Windows/CutsceneEditor.cs using Guid(d7a33c3e807476444b7d42d2130b2d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97363af05a582f218fbd65a6c837276') in 0.012426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.125981 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/Framework/CutsceneGroup.cs
+  artifactKey: Guid(b93f9dac85697834789814946a8842a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/Framework/CutsceneGroup.cs using Guid(b93f9dac85697834789814946a8842a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8607eb80c93a121766a8aa73c0319d6c') in 0.009969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.413840 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneGroupInspector.cs
+  artifactKey: Guid(97e0764fbce9a9e46bafeebbfe9029a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneGroupInspector.cs using Guid(97e0764fbce9a9e46bafeebbfe9029a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddd86fa194c72ab2ef0cb53934cf057') in 0.009445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.342256 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneInspector.cs
+  artifactKey: Guid(2da44b0e77a45e14ca34162c8efd5680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneInspector.cs using Guid(2da44b0e77a45e14ca34162c8efd5680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b128a906f57c9f8df442ea1f64955f5c') in 0.009526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.519552 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/_QuickStartScripts/CutsceneSequencePlayer.cs
+  artifactKey: Guid(fd1942f2d1f92844793e9373aaa6985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/_QuickStartScripts/CutsceneSequencePlayer.cs using Guid(fd1942f2d1f92844793e9373aaa6985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4d0016c146ac65c5dc16271c0203ee') in 0.010097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.391223 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/Framework/CutsceneTrack.cs
+  artifactKey: Guid(cf4469df12adb1749b56d12fda018395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/Framework/CutsceneTrack.cs using Guid(cf4469df12adb1749b56d12fda018395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04b0d4cbec6df563660dd22ad365091') in 0.008962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.399619 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneTrackInspector.cs
+  artifactKey: Guid(b62593da66b28ec4e87bb8c1fc95ed01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Editor/Inspectors/CutsceneTrackInspector.cs using Guid(b62593da66b28ec4e87bb8c1fc95ed01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78660b73987717eb72e16ba152dddd73') in 0.010240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.596635 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Partial Editor/CutsceneUtility.cs
+  artifactKey: Guid(eae2ccfaa22387f4bbc6299243e6018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/Design/Partial Editor/CutsceneUtility.cs using Guid(eae2ccfaa22387f4bbc6299243e6018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a95abe6652ebc7abf5547e49ffd0bf') in 0.009954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.934730 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/Directables/Clips/Runtime/ActionTrack/DirectorActions/Utility/PauseCutscene.cs
+  artifactKey: Guid(726d499e3ab4fc34c84c8869f5c992e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/Directables/Clips/Runtime/ActionTrack/DirectorActions/Utility/PauseCutscene.cs using Guid(726d499e3ab4fc34c84c8869f5c992e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3da894d8857c9058611dc387a2b7bd') in 0.009514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029323 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/_QuickStartScripts/PlayCutsceneOnClick.cs
+  artifactKey: Guid(024195c3e61bcdf40bebaa6a3f897742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/_QuickStartScripts/PlayCutsceneOnClick.cs using Guid(024195c3e61bcdf40bebaa6a3f897742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a072c79dc7e7488f16e747ff32ff0d19') in 0.011116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083774 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/_QuickStartScripts/PlayCutsceneOnStart.cs
+  artifactKey: Guid(38438984f14899e4a97f58813893acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/_QuickStartScripts/PlayCutsceneOnStart.cs using Guid(38438984f14899e4a97f58813893acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d5c36a7cae3b244f6e0008186f5029') in 0.011539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.362273 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/_QuickStartScripts/PlayCutsceneOnTrigger.cs
+  artifactKey: Guid(c82b1bc1b51ad33408588292daf86959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/_QuickStartScripts/PlayCutsceneOnTrigger.cs using Guid(c82b1bc1b51ad33408588292daf86959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d1e3366a83719eff6cd85de2ddc16c') in 0.009742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.386871 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/_QuickStartScripts/StopCutsceneOnClick.cs
+  artifactKey: Guid(4188f8a1483d24d4cbb939369b866cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/_QuickStartScripts/StopCutsceneOnClick.cs using Guid(4188f8a1483d24d4cbb939369b866cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da059ff3ecf9d68af1f115fc98fc829f') in 0.011118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.322296 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/_QuickStartScripts/StopCutsceneOnTrigger.cs
+  artifactKey: Guid(db8e6099854f99545a81352b76adc88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/_QuickStartScripts/StopCutsceneOnTrigger.cs using Guid(db8e6099854f99545a81352b76adc88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7459737044cbdedeb16ec41c14f359bb') in 0.009610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.369458 seconds.
+  path: Assets/ParadoxNotion/SLATE Cinematic Sequencer/Directables/Clips/Runtime/ActionTrack/DirectorActions/Composition/SubCutscene.cs
+  artifactKey: Guid(e1e9f8efc54e61c45a4db80f7635e72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/SLATE Cinematic Sequencer/Directables/Clips/Runtime/ActionTrack/DirectorActions/Composition/SubCutscene.cs using Guid(e1e9f8efc54e61c45a4db80f7635e72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb03f4f01e781fcefe8e1269bc9a7a94') in 0.010503 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004776 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (940ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (704ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (1.3 MB). Loaded Objects now: 2780.
+Memory consumption went from 99.5 MB to 98.2 MB.
+Total: 3.787400 ms (FindLiveObjects: 0.358300 ms CreateObjectMapping: 0.295200 ms MarkObjects: 2.735500 ms  DeleteObjects: 0.397400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
